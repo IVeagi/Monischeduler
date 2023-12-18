@@ -5,3 +5,6 @@ this is  a scheduler for kuberneters , base on monitor data, force on
 3.以cronjob方式运行，触发阈值小于集群自身机制 然后根据监控情况，和pod的优先级，QPS ，业务优先级 打分，根据评分选择将要驱逐的pod
 4.根据符合需求的node的监控数据，选择是否驱逐pod，
 5.驱逐前设置节点不可调度，驱逐后重新拉起
+
+
+crane-scheduler
